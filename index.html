@@ -7,6 +7,123 @@
     <title>CV</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav_container">
+                <ul>
+                    <li>About me</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>Example code</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="#">
+            <div class="container">
+                <div class="left-content">
+                    <figure>
+                        <img src="img/main-img.jpg" alt="my photo">
+                    </figure>
+                    <div class="contacts">
+                        <h2>My contacts</h2>
+                        <ul>
+                            <li>My telegram: <a href="https://t.me/nesvaren">@nesvaren</a></li>
+                            <li>My e-mail: <a href="mailto:inna020108@gmail.com">inna020108@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="title">
+                        <h1>Hi, my name is Inna!</h1>
+                    </div>
+                    <div class="description">
+                        <h2>About me:</h2>
+                        <h4>I have loved programming since I was in high school. It took me a long time to find my direction, and I found myself in frontend. Now I'm actively learning everything I need for this profession. In the summer I took a stage#0 course from RSschool.</h4>
+                        <h2>Education:</h2>
+                        <h4>MSTU STANKIN: Mechanical Engineering (2019 - 2024)</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Figma</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2>My Learning Projects</h2>
+                <div class="projects_1st">
+                    <h4>First CV</h4>
+                    <a href="https://zilarr.github.io/rsschool-cv-s0/"><img src="img/project1.png" alt="CV"></a>
+                </div>
+                <div class="projects_2nd">
+                    <h4>JS30 task</h4>
+                    <a href="https://rolling-scopes-school.github.io/zilarr-JSFEPRESCHOOL/slider/"><img src="img/project2.jpg" alt="JS task"></a>
+                </div>
+                <div class="projects_2rd">
+                    <h4>Dino:</h4>
+                    <p>On this project I was introduced to CSS- animation and JS</p>
+                    <a href="https://reverent-mirzakhani-9af1ad.netlify.app/"><img src="img/project3.jpg" alt="Dino"></a>
+                </div>
+            </div>
+        </section>
+        <section class="code">
+            <div class="container">
+                <h2>Example code</h2>
+                <pre>
+                    <code>module.exports = function toReadable (number) {
+                        const simpleCardinalNumbers = ['zero','one','two','three','four', 'five',
+                        'six','seven','eight','nine','ten','eleven','twelve', 'thirteen',
+                        'fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+                        const dozens = ['', '','twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
+                        const hundreds = ['','one hundred', 'two hundred', 'three hundred', 'four hundred',
+                        'five hundred','six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
+                    
+                            if (number &lt; 20) {
+                                return simpleCardinalNumbers[number];
+                            }
+                            if (number % 10 !== 0  && number &lt; 100) {
+                                return (dozens[Math.floor(number / 10)] + ' ' + simpleCardinalNumbers[number % 10]);
+                            }
+                            if (number % 10 == 0 && number &lt; 100) {
+                                return dozens[number/10];
+                            }
+                            if (number % 100 == 0) {
+                                return hundreds[number/100];
+                            }
+                            if ((number % 100) &lt; 20 ) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + simpleCardinalNumbers[number % 100]);
+                            }
+                            if (number % 10 == 0) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + dozens[Math.floor(number / 10) % 10]);
+                            }
+                            if (number % 100 !== 0) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + dozens[Math.floor(number / 10) % 10] + ' ' + simpleCardinalNumbers[number % 10]);
+                            }
+                    };</code>
+                </pre>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/zilarr"><img src="img/gh-logo.png" alt="gh-logo"></a>
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs-logo"></a>
+            <span>
+                <time datetime="2021">2021</time>
+            </span>
+        </div>
+    </footer>
 </body>
 </html>

@@ -45,6 +45,9 @@ header {
     font-size: 36px;
     line-height: 50px;
 }
+.about {
+    margin-bottom: 100px;
+}
 .about_contant {
     display: flex;
 }
@@ -83,6 +86,10 @@ header {
 }
 .section-title {
     text-align: center;
+    margin-bottom: 50px;
+}
+.skills {
+    margin-bottom: 100px;
 }
 .skill_list {
     display: flex;
@@ -159,4 +166,22 @@ header {
 .projects_img:hover {
     box-shadow: 15px 15px #736048;
     transform: translateX(-15px);
+}
+footer {
+    background-color: #A6653F;
+    top: 0;
+    width: 100%;
+}
+.footer_contant {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs-logo {
+    width: 187px;
+    height: 69px;
+}
+.gh-logo {
+    width: 52px;
+    height: 52px;
 }

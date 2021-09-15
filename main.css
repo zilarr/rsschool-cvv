@@ -140,3 +140,23 @@ header {
     background-size: 75px;
     background-position: left center;
 }
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 110px;
+}
+.project_3rd_title {
+    margin: 0;
+}
+.project_3rd_description {
+    margin: 0;
+    font-size: 36px;
+    line-height: 50px;
+    width: 336px
+}
+.projects_img:hover {
+    box-shadow: 15px 15px #736048;
+    transform: translateX(-15px);
+}

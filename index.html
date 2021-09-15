@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav_container">
+                <ul class="nav_list">
+                    <li class="nav_item">About me</li>
+                    <li class="nav_item">Skills</li>
+                    <li class="nav_item">Projects</li>
+                    <li class="nav_item">Example code</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="#">
+            <div class="container">
+                <div class="about_contant">
+                    <div class="left-content">
+                        <figure>
+                            <img class="main-img" src="img/main-img.jpg" alt="my photo">
+                        </figure>
+                        <div class="contacts">
+                            <h2 class="contacts_title">My contacts</h2>
+                            <ul class="contacts_list">
+                                <li class="contacts_item">My telegram: <a href="https://t.me/nesvaren">@nesvaren</a></li>
+                                <li class="contacts_item">My e-mail: <a href="mailto:inna020108@gmail.com">inna020108@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="right-title">
+                            <h1>Hi, my name is Inna!</h1>
+                        </div>
+                        <div class="description">
+                            <h2 class="title">About me:</h2>
+                            <h4 class="description">I have loved programming since I was in high school. It took me a long time to find my direction, and I found myself in frontend. Now I'm actively learning everything I need for this profession. In the summer I took a stage#0 course from RSschool.</h4>
+                            <h2 class="title">Education:</h2>
+                            <h4 class="description">MSTU STANKIN: Mechanical Engineering (2019 - 2024)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills:</h2>
+                <ul class="skill_list">
+                    <li class="skill_item skill_html">HTML</li>
+                    <li class="skill_item skill_css">CSS</li>
+                    <li class="skill_item skill_js">JavaScript</li>
+                    <li class="skill_item skill_photoshop">Adobe Photoshop</li>
+                    <li class="skill_item skill_figma">Figma</li>
+                    <li class="skill_item skill_git">Git</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2 class="section-title">My Learning Projects</h2>
+                <div class="projects 1st_project">
+                    <h4>First CV</h4>
+                    <a href="https://zilarr.github.io/rsschool-cv-s0/"><img class="projects_img" src="img/project1.png" alt="CV"></a>
+                </div>
+                <div class="projects 2nd_project">
+                    <a href="https://rolling-scopes-school.github.io/zilarr-JSFEPRESCHOOL/slider/"><img class="projects_img" src="img/project2.jpg" alt="JS task"></a>
+                    <h4>JS30 task</h4>
+                </div>
+                <div class="projects project_3rd">
+                    <div class="project_3rd">
+                        <h4 class="project_3rd_title">Dino:</h4>
+                        <p class="project_3rd_description">On this project I was introduced to CSS- animation and JS</p>
+                    </div>
+                    <a href="https://reverent-mirzakhani-9af1ad.netlify.app/"><img class="projects_img" src="img/project3.jpg" alt="Dino"></a>
+                </div>
+            </div>
+        </section>
+        <section class="code">
+            <div class="container">
+                <h2 class="section-title">Example code</h2>
+                <pre>
+                    <code>module.exports = function toReadable (number) {
+                        const simpleCardinalNumbers = ['zero','one','two','three','four', 'five',
+                        'six','seven','eight','nine','ten','eleven','twelve', 'thirteen',
+                        'fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+                        const dozens = ['', '','twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
+                        const hundreds = ['','one hundred', 'two hundred', 'three hundred', 'four hundred',
+                        'five hundred','six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
+                    
+                            if (number &lt; 20) {
+                                return simpleCardinalNumbers[number];
+                            }
+                            if (number % 10 !== 0  && number &lt; 100) {
+                                return (dozens[Math.floor(number / 10)] + ' ' + simpleCardinalNumbers[number % 10]);
+                            }
+                            if (number % 10 == 0 && number &lt; 100) {
+                                return dozens[number/10];
+                            }
+                            if (number % 100 == 0) {
+                                return hundreds[number/100];
+                            }
+                            if ((number % 100) &lt; 20 ) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + simpleCardinalNumbers[number % 100]);
+                            }
+                            if (number % 10 == 0) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + dozens[Math.floor(number / 10) % 10]);
+                            }
+                            if (number % 100 !== 0) {
+                                return (hundreds[Math.floor(number/100)] + ' ' + dozens[Math.floor(number / 10) % 10] + ' ' + simpleCardinalNumbers[number % 10]);
+                            }
+                    };</code>
+                </pre>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_contant">
+                <div class="github">
+                    <a href="https://github.com/zilarr"><img class="gh-logo" src="img/gh-logo.png" alt="gh-logo"></a>
+                </div>
+                <div class="rsschool">
+                    <a href="https://rs.school/js/"><img class="rs-logo" src="img/rs_school_js.svg" alt="rs-logo"></a>
+                </div>
+                <div class="date">
+                    <span>
+                    <time datetime="2021">2021</time>
+                </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    background-color: #F2DAC4;
+    margin: 0 auto;
+    font-family: Architects Daughter;
+}
+main {
+    padding-top: 100px;
+}
+h1 {
+    font-size: 64px;
+    line-height: 89px;
+}
+h2 {
+    font-size: 48px;
+    line-height: 67px;
+}
+h4 {
+    font-size: 36px;
+    line-height: 50px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    background-color: #A6653F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav_item {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 50px;
+}
+.about {
+    margin-bottom: 100px;
+}
+.about_contant {
+    display: flex;
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-img {
+    width: 524px;
+    height: 521px;
+}
+.contacts_title {
+    margin: 0;
+}
+.contacts_list {
+    padding: 0;
+}
+.contacts_item {
+    list-style: none;
+    font-size: 30px;
+    line-height: 42px;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.description {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.title {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills {
+    margin-bottom: 100px;
+}
+.skill_list {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 330px;
+    list-style: none;
+    margin: 0;
+}
+.skill_item {
+    font-size: 36px;
+    line-height: 50px;
+    padding: 30px;
+}
+.skill_html {
+    background-image: url(img/html-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left center;
+}
+.skill_css {
+    background-image: url(img/css-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_js {
+    background-image: url(img/js-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_photoshop {
+    background-image: url(img/ps-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_figma {
+    background-image: url(img/figma-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_git {
+    background-image: url(img/git-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 110px;
+}
+.project_3rd_title {
+    margin: 0;
+}
+.project_3rd_description {
+    margin: 0;
+    font-size: 36px;
+    line-height: 50px;
+    width: 336px
+}
+.projects_img:hover {
+    box-shadow: 15px 15px #736048;
+    transform: translateX(-15px);
+}
+footer {
+    background-color: #A6653F;
+    top: 0;
+    width: 100%;
+}
+.footer_contant {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs-logo {
+    width: 187px;
+    height: 69px;
+}
+.gh-logo {
+    width: 52px;
+    height: 52px;
+}

@@ -81,3 +81,62 @@ header {
     margin: 0;
     margin-bottom: 5px;
 }
+.section-title {
+    text-align: center;
+}
+.skill_list {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 330px;
+    list-style: none;
+    margin: 0;
+}
+.skill_item {
+    font-size: 36px;
+    line-height: 50px;
+    padding: 30px;
+}
+.skill_html {
+    background-image: url(img/html-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: left center;
+}
+.skill_css {
+    background-image: url(img/css-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_js {
+    background-image: url(img/js-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_photoshop {
+    background-image: url(img/ps-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_figma {
+    background-image: url(img/figma-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}
+.skill_git {
+    background-image: url(img/git-logo.png);
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: left center;
+}

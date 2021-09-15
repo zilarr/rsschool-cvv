@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    background-color: #F2DAC4;
+    margin: 0 auto;
+    font-family: Architects Daughter;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    background-color: #A6653F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav_item {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 50px;
+}

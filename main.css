@@ -58,6 +58,7 @@ header {
     height: 50px;
     cursor: pointer;
     position: relative;
+    margin: 15px 0;
 }
 .burger_item {
     display: block;
@@ -227,12 +228,12 @@ footer {
     width: 52px;
     height: 52px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .burger {
         display: none;
     }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1199px) {
     .container {
         width: 700px;
     }

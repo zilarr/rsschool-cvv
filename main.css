@@ -23,6 +23,10 @@ h4 {
     font-size: 36px;
     line-height: 50px;
 }
+h6 {
+    font-size: 36px;
+    line-height: 50px;
+}
 a {
     text-decoration: none;
     color: #000000;
@@ -200,10 +204,7 @@ header {
 .project_3rd_title {
     margin: 0;
 }
-.project_3rd_description {
-    margin: 0;
-    font-size: 36px;
-    line-height: 50px;
+.project_1st_description, .project_2nd_description, .project_3rd_description {
     width: 336px
 }
 .projects_img:hover {
@@ -303,13 +304,16 @@ footer {
         font-size: 28px;
         line-height: 40px;
     }
+    h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
     .skill_item, .contacts_item {
         align-items: center;
         font-size: 30px;
     }
-    .project_3rd_description {
+    .project_1st_description, .project_2nd_description, .project_3rd_description {
         width: 250px;
-        font-size: 20px;
     }
     .skill_html, .skill_css, .skill_js, .skill_photoshop, .skill_figma, .skill_git {
         background-size: 60px;

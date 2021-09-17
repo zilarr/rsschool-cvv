@@ -315,3 +315,8 @@ footer {
         padding-left: 65px;
     }
 }
+.nav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
